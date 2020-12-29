@@ -34,7 +34,7 @@ var YZM = {
 				config.sendtime =e.data.sendtime;
 				config.color = e.data.color;
 				config.group_x = YZM.ads.set.group;
-				config.dmrule = 'http://cloudhai.cn';
+				config.dmrule = 'http://piacn.cn';
 				//config.group = YZM.getCookie('group_id');
 				danmuon = e.data.danmuon;
 				if(config.group < config.group_x && YZM.ads.state=='on' && config.group!=''){
@@ -376,7 +376,7 @@ var YZM = {
 				})
 
 			});
-		var liyih='<div class="dmrules"><a target="_blank" href="' +config.dmrule + '">博客 </a></div>';
+		var liyih='<div class="dmrules"><a target="_blank" href="' +config.dmrule + '">弹幕礼仪 </a></div>';
 		$("div.yzmplayer-comment-box:last").append(liyih);
 		$(".yzmplayer-watching-number").text(up.usernum);
 		$(".yzmplayer-info-panel-item-title-amount .yzmplayer-info-panel-item-title").html("违规词");
